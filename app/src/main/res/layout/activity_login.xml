@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:id="@+id/login"
     android:background="#EFF0F5">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -74,7 +75,7 @@
             app:layout_constraintTop_toBottomOf="@id/editTextEmail" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonLogin"
+            android:id="@+id/buttonLogin02"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
@@ -97,7 +98,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
-            app:layout_constraintTop_toBottomOf="@id/buttonLogin"
+            app:layout_constraintTop_toBottomOf="@id/buttonLogin02"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
 
